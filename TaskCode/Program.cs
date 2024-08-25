@@ -6,21 +6,17 @@ class Program
     {
 
         //A, B ededleri arasinda 3e tam bolunen ededleri tapan alqoritm
-        int[] nums = { 9, 6, };
-
-        for (int i = 0; i < nums.Length; i++)
+        for (int i = 0; i <=50; i++)
         {
-            if (nums[i] % 3 == 0)
+            if (i%3==0&& i>0)
             {
-                Console.WriteLine($"{nums[i]} ededi 3 tam bolunur.");
+                Console.WriteLine(i);
             }
         }
 
 
 
-
-
-        // Verilmish ededin 2-nin quvveti olub olmadigini tapan alqoritm misal: 8 quvvetidir, 6 quvveti deyil
+        //// Verilmish ededin 2-nin quvveti olub olmadigini tapan alqoritm misal: 8 quvvetidir, 6 quvveti deyil
         int data = 128, number = data;
         bool value = true;
 
@@ -38,6 +34,7 @@ class Program
         {
             Console.WriteLine($"{number} ededi 2 quvvetidir.");
         }
+
 
 
 
